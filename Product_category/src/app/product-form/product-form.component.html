@@ -1,0 +1,17 @@
+<!-- src/app/product-form/product-form.component.html -->
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="productName">Product Name</label>
+      <input id="productName" formControlName="productName" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" formControlName="description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input id="price" type="number" formControlName="price" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Add Product</button>
+  </form>
+  

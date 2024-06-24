@@ -1,0 +1,9 @@
+<!-- src/app/category-form/category-form.component.html -->
+<form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="categoryName">Category Name</label>
+      <input id="categoryName" formControlName="categoryName" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  

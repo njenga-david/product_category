@@ -1,0 +1,19 @@
+/* src/app/product-form/product-form.component.css */
+.form-group {
+    margin-bottom: 1em;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
